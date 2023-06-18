@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>DOM Javascribt</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h3>Form Pemesanan</h3>
+            </div>
+            <form action="">
+                <label for="nama">Nama</label><br>
+                <input type="text" placeholder="Nama anda" id="nama"><br><br>
+                <label for="nim">No antrian</label><br>
+                <input type="text" placeholder="No antrian anda" id="nim"><br>
+                <p>Daftar menu:</p>
+
+                <input type="radio" name="peminatan" id="programming" value="Latte">
+                <label for="programming">Latte</label> <br>
+                <input type="radio" name="peminatan" id="desain" value="Espresso">
+                <label for="programming">Espresso</label> <br>
+                <input type="radio" name="peminatan" id="desain" value="Americano">
+                <label for="programming">Americano</label> <br>
+                <input type="radio" name="peminatan" id="desain" value="Moccacino">
+                <label for="programming">Moccacino</label> <br>
+
+                <label for="">Alamat</label> <br>
+                <textarea placeholder="Tulis alamat mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+                <label for="angkatan">Jenis Kelamin</label><br>
+                <select id="angkatan">
+                <option value="">Jenis Kelamin</option>
+                <option>Perempuan</option>
+                <option>Laki-laki</option>
+               </select><br><br>
+               <label for="tanggal">Tanggal Pemesanan</label><br>
+               <input type="datetime-local" id="Test_datetimeLocal"><br><br>
+        <head>
+        </head>
+        <button type="Submit" onclick="kirimData()">Kirim</button>
+        </form>
+        </div>
+        
+        <script src="Exe2.js"></script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(124, 124, 88);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(124, 124, 88);
+    padding: 10px;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
